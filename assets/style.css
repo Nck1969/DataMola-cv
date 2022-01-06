@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.cv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 90%;
+  border-radius: 5px;
+  background-color: rgb(224, 222, 222);
+}
+.cv__about {
+  width: 23%;
+  height: 95%;
+  font-size: 17px;
+  border-radius: 25px;
+  background-color: rgb(197, 197, 197);
+  border: 2px solid rgb(109, 109, 109);
+}
+.about__photo {
+  width: 202.5px;
+  height: 270px;
+  margin-top: 20px;
+  margin-left: 15%;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 2px solid black;
+}
+.about__photo img {
+  width: 202.5px;
+  height: 270px;
+}
+.name {
+  margin-top: 20px;
+  margin-left: 23%;
+}
+.about__contacts {
+  list-style: none;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-bottom: 2px solid rgb(122, 115, 115);
+}
+.about__contacts li {
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.about__contacts a {
+  text-decoration: none;
+  color: black;
+}
+.about__contacts a:visited {
+  text-decoration: none;
+}
+
+.cv__hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 36%;
+  height: 95%;
+  border-radius: 25px;
+  background-color: rgb(197, 197, 197);
+  border: 2px solid rgb(109, 109, 109);
+}
+.cv__course {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  justify-content: center;
+  width: 36%;
+  height: 95%;
+  border-radius: 25px;
+  background-color: rgb(197, 197, 197);
+  border: 2px solid rgb(109, 109, 109);
+}
+.about__aducation {
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-bottom: 2px solid rgb(122, 115, 115);
+}
+.about__aducation p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hobbies__title {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.course__title {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.title {
+  width: 80%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+.title span {
+  width: 80%;
+  text-align: center;
+}
+.text {
+  padding: 20px;
+  width: 80%;
+  height: 60%;
+  border-radius: 25px;
+  border: 2px solid rgb(109, 109, 109);
+}
+.text p {
+  text-indent: 20px;
+  font-size: 20px;
+}
